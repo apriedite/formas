@@ -16,17 +16,12 @@
     </form>
     <form>
         <p> Ievadi skaitli un uzzināsi kāds būs datums pēc tik dienām. </p>
-        <div>skaitlis<input type="number" name="sk1"> </div>
-        <input value="spied šeit" name="poga" onclick="rez.value=sk1.value+datums.value=new Date();" type="button">
+        <div>skaitlis<input type="number" name="sk0"> </div>
+        <div>
+            <input value="spied šeit" name="poga" onclick="rez.value=sk0.value+datums.value=new Date();" type="button">
+        </div>
         <div>Datums<input name="datums"> </div>
     </form>
-    <form>
-        
- <p id="demo"></p>
-
-var d = new Date(100000000000);
-document.getElementById("demo").innerHTML = d;
-</form>
     <form>
         <div>1.skaitlis<input type="number" name="sk1"> </div>
         <div>
