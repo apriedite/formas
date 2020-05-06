@@ -15,7 +15,7 @@
         </p>
     </form>
     <form>
-        <div>1.skaitlis<input type="text" name="sk1"> </div>
+        <div>1.skaitlis<input type="number" name="sk1"> </div>
         <div>
             <input value="X" name="reiz" onclick="rez.value=sk1.value*sk2.value" type="button">
         </div>
