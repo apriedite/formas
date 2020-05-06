@@ -36,15 +36,12 @@
         </p>
     </form>
 </body>
-</html>
 
-<html>
 <head>
     <meta charset="UTF-8">
     <script>
     function krasot(){
         var kr=document.getElementById("krasa").value;
-        var kr=document.getElementByID("fons").value;
         document.getElementById("fons").style="background-color:"+kr;
         document.getElementById("fons").innerText = "Krāsa nomainīta!";
     }
