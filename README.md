@@ -15,6 +15,10 @@
         </p>
     </form>
     <form>
+        <p> Ievadi skaitli un uzzināsi kāds būs datums pēc tik dienām. </p>
+        <div>skaitlis<input type="number" name="sk1"> </div>
+    </form>
+    <form>
         <div>1.skaitlis<input type="number" name="sk1"> </div>
         <div>
             <input value="X" name="reiz" onclick="rez.value=sk1.value*sk2.value" type="button">
