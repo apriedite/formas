@@ -21,6 +21,13 @@
         <div>Datums<input name="datums"> </div>
     </form>
     <form>
+        
+ <p id="demo"></p>
+
+var d = new Date(100000000000);
+document.getElementById("demo").innerHTML = d;
+</form>
+    <form>
         <div>1.skaitlis<input type="number" name="sk1"> </div>
         <div>
             <input value="X" name="reiz" onclick="rez.value=sk1.value*sk2.value" type="button">
