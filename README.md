@@ -50,5 +50,6 @@
   <div id="fons" style="background-color:lightgrey">Izvēlies krāsu!</div>
   <input type="color" id="krasa" value="#00ff00" onclick="krasot();">
 </form>
+document.getElementById('demo').innerHTML = 'Hello JavaScript';
 </body>
 </html>
