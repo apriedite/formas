@@ -18,9 +18,9 @@
         <p> Ievadi skaitli un uzzināsi kāds būs datums pēc tik dienām. </p>
         <div>skaitlis<input type="number" name="sk0"> </div>
         <div>
-            <input value="spied šeit" name="poga" onclick="rez.value=sk0.value+datums.value=new Date();" type="button">
+            <input value="spied šeit" name="poga" onclick=rez.value=sk0datums.value=datums.value=new Date();" type="button">
         </div>
-        <div>Datums<input name="datums"> </div>
+        <div>Datums<input name="rez"> </div>
     </form>
     <form>
         <div>1.skaitlis<input type="number" name="sk1"> </div>
