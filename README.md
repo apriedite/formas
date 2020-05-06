@@ -20,7 +20,7 @@
             <input value="X" name="reiz" onclick="rez.value=sk1.value*sk2.value" type="button">
         </div>
         <div>
-            <input value="+" name="plus" onclick="rez.value=sk1.value + sk2.value" type="button">
+            <input value="+" name="plus" onclick="rez.value=sk1.value+sk2.value" type="button">
         </div>
         <div>
             <input value="-" name="mīnus" onclick="rez.value=sk1.value-sk2.value" type="button">
@@ -31,7 +31,7 @@
         <div>2.skaitlis<input type="number" name="sk2"> </div>
         <hr>
         <div>Rezultāts<input name="rez"> </div>
-        <p>Ja gribi izdzēst rezultāta lodziņa saturu, spied pogu RESET
+        <p>Ja gribi izdzēst lodziņu saturu, spied pogu RESET
             <input value="RESET" type="reset">
         </p>
     </form>
@@ -41,13 +41,10 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Formas</title>
     <script>
     function krasot(){
         var kr=document.getElementById("krasa").value;
         document.getElementById("fons").style="background-color:"+kr;
-    }
-    function krasot2(){
         document.getElementById("fons").innerText = "Krāsa nomainīta!";
     }
     </script>
@@ -56,7 +53,6 @@
 <form>
   <div id="fons" style="background-color:lightgrey">Izvēlies krāsu!</div>
   <input type="color" id="krasa" value="#00ff00" onclick="krasot();">
-  <input type="button" value="gatavs" onclick="krasot2();">
 </form>
 </body>
 </html>
