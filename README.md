@@ -51,5 +51,6 @@
      <form>
   <div id="fons" style="background-color:lightgrey">Izvēlies krāsu!</div>
   <input type="color" id="krasa" value="#00ff00" onclick="krasot();">
+  document.querySelector("Krāsa nomainīta!").style.color = color;
 </form>
 </body>
