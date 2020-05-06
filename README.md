@@ -37,24 +37,17 @@
     </form>
 </body>
 
-<head>
+<body>
     <meta charset="UTF-8">
     <script>
+        <form>
+  <div id="fons" style="background-color:lightgrey">Izvēlies krāsu!</div>
+  <input type="color" id="krasa" value="#00ff00" onclick="krasot();">
+</form>
     function krasot(){
         var kr=document.getElementById("krasa").value;
         document.getElementById("fons").style="background-color:"+kr;
         document.getElementById("fons").innerText = "Krāsa nomainīta!";
     }
     </script>
-</head>
-<body>
-<form>
-  <div id="fons" style="background-color:lightgrey">Izvēlies krāsu!</div>
-  <input type="color" id="krasa" value="#00ff00" onclick="krasot();">
-    <colorInput.addEventListener(‘input‘, () =>{
-    let color = colorInput value;
-    hexInput.value = color;
-    document.body.style.background = color;
-    });>
-</form>
 </body>
