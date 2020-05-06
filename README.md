@@ -36,3 +36,24 @@
     </form>
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formas</title>
+    <script>
+    function krasot(){
+        var kr=document.getElementById("krasa").value;
+        document.getElementById("fons").style="background-color:"+kr;
+    }
+    </script>
+</head>
+<body>
+<form>
+  <div id="fons" style="background-color:lightgrey">Izvēlies krāsu!</div>
+  <input type="color" id="krasa" value="#00ff00" onclick="krasot();">
+</form>
+</body>
+</html>
