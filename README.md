@@ -44,6 +44,7 @@
     <script>
     function krasot(){
         var kr=document.getElementById("krasa").value;
+        var kr=document.getElementByID("fons").value;
         document.getElementById("fons").style="background-color:"+kr;
         document.getElementById("fons").innerText = "Krāsa nomainīta!";
     }
