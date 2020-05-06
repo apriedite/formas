@@ -28,7 +28,7 @@
         <div>
             <input value="/" name="dalīt" onclick="rez.value=sk1.value/sk2.value" type="button">
         </div>
-        <div>2.skaitlis<input type="text" name="sk2"> </div>
+        <div>2.skaitlis<input type="number" name="sk2"> </div>
         <hr>
         <div>Rezultāts<input name="rez"> </div>
     </form>
@@ -45,7 +45,7 @@
 <form>
   <div id="fons" style="background-color:lightgrey">Izvēlies krāsu!</div>
   <input type="color" id="krasa" value="#00ff00" onclick="krasot();">
-    <div id="text" name="Krāsa nomainīta!">Izvēlies krāsu!</div>
+ 
 </form>
 </body>
 </html>
