@@ -49,7 +49,7 @@
 </head>
 <body>
      <form>
-  <button onlick="fons" style="background-color:lightgrey">Izvēlies krāsu!</button>
+  <div id="fons" style="background-color:lightgrey">Izvēlies krāsu!</div>
   <input type="color" id="krasa" value="#00ff00" onclick="krasot();">
 </form>
 </body>
