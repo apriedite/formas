@@ -50,6 +50,6 @@
   <div id="fons" style="background-color:lightgrey">Izvēlies krāsu!</div>
   <input type="color" id="krasa" value="#00ff00" onclick="krasot();">
 </form>
-<button type="button" onclick="document.getElementById('demo').innerHTML = 'Krāsa nomainīta'">Izvēlies krāsu!</button>
+<button type="button" onclick="document.getElementById('demo').innerHTML = 'Krāsa nomainīta'">krasot()</button>
 </body>
 </html>
