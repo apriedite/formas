@@ -31,6 +31,9 @@
         <div>2.skaitlis<input type="number" name="sk2"> </div>
         <hr>
         <div>Rezultāts<input name="rez"> </div>
+        <p>Ja gribi izdzēst rezultāta lodziņa saturu, spied pogu RESET
+            <input value="RESET" type="reset">
+        </p>
     </form>
 </body>
 </html>
