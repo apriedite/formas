@@ -22,7 +22,7 @@
             <input value="X" name="reiz" onclick="rez.value=sk1.value*sk2.value" type="button">
         </div>
         <div>
-            <input value="+" name="plus" onclick="rez.value=sk1.value+sk2.value" type="button">
+            <input value="+" name="plus" onclick="rez.value=sk1.value +sk2.value" type="button">
         </div>
         <div>
             <input value="-" name="mīnus" onclick="rez.value=sk1.value-sk2.value" type="button">
