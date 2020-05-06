@@ -34,12 +34,7 @@
         <hr>
         <div>Rezultāts<input name="rez"> </div>
     </form>
-</body>
-</html>
 
-
-<!DOCTYPE html>
-<html>
 <head>
     <meta charset="UTF-8">
     <title>Formas</title>
@@ -50,7 +45,6 @@
     }
     </script>
 </head>
-<body>
 <form>
   <div id="fons" style="background-color:lightgrey">Izvēlies krāsu!</div>
   <input type="color" id="krasa" value="#00ff00" onclick="krasot();">
