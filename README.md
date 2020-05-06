@@ -1,4 +1,3 @@
-<html>
 <head>
     <meta charset="UTF-8">
     <title>Formas</title>
@@ -46,10 +45,7 @@
 <form>
   <div id="fons" style="background-color:lightgrey">Izvēlies krāsu!</div>
   <input type="color" id="krasa" value="#00ff00" onclick="krasot();">
-    <div id="firstDiv">"color"</div>
-    document.getElementByID("color").onclick = fuction () {
-    document.getElementByID("firstDiv").innerHTML = "Krāsa nomainīta!"
-    }
+    <div id="text" name="Krāsa nomainīta!">Izvēlies krāsu!</div>
 </form>
 </body>
 </html>
