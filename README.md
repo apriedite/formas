@@ -24,6 +24,12 @@
         <div>
             <input value="+" name="plus" onclick="rez.value=sk1.value+sk2.value" type="button">
         </div>
+        <div>
+            <input value="-" name="mīnus" onclick="rez.value=sk1.value-sk2.value" type="button">
+        </div>
+        <div>
+            <input value="/" name="dalīt" onclick="rez.value=sk1.value/sk2.value" type="button">
+        </div>
         <div>2.skaitlis<input type="text" name="sk2"> </div>
         <hr>
         <div>Rezultāts<input name="rez"> </div>
